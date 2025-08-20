@@ -96,7 +96,7 @@ public class AVLBasicExercise {
         int lh = height(node.left);
         int rh = height(node.right);
         return Math.max(lh, rh) + 1;
-    }
+    }ㄋ
 
     /* 對外提供：取得整棵樹高度 */
     public int height() { return height(root); }
